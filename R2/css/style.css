@@ -11,25 +11,18 @@ html {
   }
   
   tbody td {
-    text-align: center;
+    text-align: left;
   }
   
-  tfoot th {
-    text-align: right;
+  tbody th {
+    text-align: left;
   }
 
-  tbody tr:nth-child(odd) {
-    background-color: #ff33cc;
-  }
-  
   tbody tr:nth-child(even) {
-    background-color: #e495e4;
+    background-color: #f1edf1;
   }
-  
-  tbody tr {
-    background-image: url(noise.png);
-  }
-  
   table {
-    background-color: #ff33cc;
+    background-color: #dbd9db;
+    margin-left: auto;
+    margin-right: auto;
   }
