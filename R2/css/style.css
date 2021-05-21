@@ -1,0 +1,35 @@
+html {
+    font-family: 'helvetica neue', helvetica, arial, sans-serif;
+  }
+  
+  th {
+    letter-spacing: 2px;
+  }
+  
+  td {
+    letter-spacing: 1px;
+  }
+  
+  tbody td {
+    text-align: center;
+  }
+  
+  tfoot th {
+    text-align: right;
+  }
+
+  tbody tr:nth-child(odd) {
+    background-color: #ff33cc;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #e495e4;
+  }
+  
+  tbody tr {
+    background-image: url(noise.png);
+  }
+  
+  table {
+    background-color: #ff33cc;
+  }
